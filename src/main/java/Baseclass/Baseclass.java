@@ -15,7 +15,7 @@ public static WebDriver driver;
 public static WebDriver Browserlaunch(String BrowserName) {
 	
 	if (BrowserName.equalsIgnoreCase("chrome")) {
-		System.setProperty("webdriver.chrome.driver", ".\\src\\test\\resource\\driver\\msedgedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\\src\\test\\resources\\driver\\chromedriver.exe");
 		driver=new ChromeDriver();
 	} else if (BrowserName.equalsIgnoreCase("edge")) {
 		System.setProperty("webdriver.edge.driver", ".\\src\\test\\resources\\driver\\msedgedriver.exe");

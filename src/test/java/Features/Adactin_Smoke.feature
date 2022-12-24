@@ -2,7 +2,7 @@
 Feature: Adactin Somke testcases
 
 Background: 
-Given User launch the "edge" Browser
+Given User launch the "chrome" Browser
 And User Navigate the Url "http://adactinhotelapp.com/"
 Then User verify login page
 
